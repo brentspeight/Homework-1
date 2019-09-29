@@ -2,14 +2,19 @@
     margin:0;
     padding:0;
 }
+
 #low{
     color: white;
     width: 15%;
     background-color:#4aaaa5;
+    position: relative;
+    left: 150px;
+    float: left;
+    text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-left: 148px;
     text-align: center;
+    overflow: auto;
 }
 .container {
     width: 75%;
@@ -42,7 +47,6 @@ section{
 #jeremiah{
     background-image: url(../images/cork-board.png);
     padding-bottom: 100px;
-    padding-top:20px;
     width:100%;
 }
 .lit{
